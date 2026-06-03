@@ -1,0 +1,158 @@
+{
+  "GlobalVariables": [
+    "a",
+    "b",
+    "b1",
+    "b2",
+    "c"
+  ],
+  "Threads": [
+    {
+      "Name": "Thread 1",
+      "Nodes": [
+        {
+          "X": 348,
+          "Y": 85,
+          "Type": 1,
+          "Var1": "a",
+          "Var2": "",
+          "ConstantValue": "13"
+        },
+        {
+          "X": 225,
+          "Y": 208,
+          "Type": 3,
+          "Var1": "a",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 274,
+          "Y": 307,
+          "Type": 2,
+          "Var1": "b",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 500,
+          "Y": 296,
+          "Type": 4,
+          "Var1": "b",
+          "Var2": "",
+          "ConstantValue": "13"
+        },
+        {
+          "X": 594,
+          "Y": 452,
+          "Type": 1,
+          "Var1": "b2",
+          "Var2": "",
+          "ConstantValue": "420"
+        },
+        {
+          "X": 373,
+          "Y": 470,
+          "Type": 1,
+          "Var1": "b1",
+          "Var2": "",
+          "ConstantValue": "42"
+        },
+        {
+          "X": 587,
+          "Y": 595,
+          "Type": 3,
+          "Var1": "b2",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 326,
+          "Y": 588,
+          "Type": 3,
+          "Var1": "b1",
+          "Var2": "",
+          "ConstantValue": "0"
+        }
+      ],
+      "Edges": [
+        {
+          "StartNodeIndex": 0,
+          "EndNodeIndex": 1,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 1,
+          "EndNodeIndex": 2,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 2,
+          "EndNodeIndex": 3,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 3,
+          "EndNodeIndex": 5,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 3,
+          "EndNodeIndex": 4,
+          "IsTruePath": false
+        },
+        {
+          "StartNodeIndex": 5,
+          "EndNodeIndex": 7,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 4,
+          "EndNodeIndex": 6,
+          "IsTruePath": true
+        }
+      ]
+    },
+    {
+      "Name": "Thread 2",
+      "Nodes": [
+        {
+          "X": 313,
+          "Y": 225,
+          "Type": 1,
+          "Var1": "c",
+          "Var2": "",
+          "ConstantValue": "1000"
+        },
+        {
+          "X": 530,
+          "Y": 475,
+          "Type": 3,
+          "Var1": "c",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 268,
+          "Y": 449,
+          "Type": 3,
+          "Var1": "c",
+          "Var2": "",
+          "ConstantValue": "0"
+        }
+      ],
+      "Edges": [
+        {
+          "StartNodeIndex": 0,
+          "EndNodeIndex": 2,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 2,
+          "EndNodeIndex": 1,
+          "IsTruePath": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "GlobalVariables": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "Threads": [
+    {
+      "Name": "Thread 1",
+      "Nodes": [
+        {
+          "X": 345,
+          "Y": 39,
+          "Type": 2,
+          "Var1": "a",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 224,
+          "Y": 230,
+          "Type": 3,
+          "Var1": "a",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 555,
+          "Y": 191,
+          "Type": 4,
+          "Var1": "a",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 476,
+          "Y": 391,
+          "Type": 3,
+          "Var1": "c",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 504,
+          "Y": 298,
+          "Type": 1,
+          "Var1": "c",
+          "Var2": "",
+          "ConstantValue": "1234"
+        },
+        {
+          "X": 730,
+          "Y": 395,
+          "Type": 3,
+          "Var1": "d",
+          "Var2": "",
+          "ConstantValue": "0"
+        },
+        {
+          "X": 736,
+          "Y": 302,
+          "Type": 1,
+          "Var1": "d",
+          "Var2": "",
+          "ConstantValue": "420"
+        }
+      ],
+      "Edges": [
+        {
+          "StartNodeIndex": 4,
+          "EndNodeIndex": 3,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 2,
+          "EndNodeIndex": 4,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 2,
+          "EndNodeIndex": 6,
+          "IsTruePath": false
+        },
+        {
+          "StartNodeIndex": 6,
+          "EndNodeIndex": 5,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 0,
+          "EndNodeIndex": 1,
+          "IsTruePath": true
+        },
+        {
+          "StartNodeIndex": 1,
+          "EndNodeIndex": 2,
+          "IsTruePath": true
+        }
+      ]
+    },
+    {
+      "Name": "Thread 2",
+      "Nodes": [
+        {
+          "X": 430,
+          "Y": 330,
+          "Type": 1,
+          "Var1": "b",
+          "Var2": "",
+          "ConstantValue": "42"
+        },
+        {
+          "X": 435,
+          "Y": 474,
+          "Type": 3,
+          "Var1": "b",
+          "Var2": "",
+          "ConstantValue": "0"
+        }
+      ],
+      "Edges": [
+        {
+          "StartNodeIndex": 0,
+          "EndNodeIndex": 1,
+          "IsTruePath": true
+        }
+      ]
+    },
+    {
+      "Name": "Thread 3",
+      "Nodes": [],
+      "Edges": []
+    }
+  ]
+}
